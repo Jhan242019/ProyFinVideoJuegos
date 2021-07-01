@@ -1,4 +1,1 @@
-
-File Licenses
-
-https://craftpix.net/file-licenses/
+Proyecto elaborado bajo la licencia GPL 2021
