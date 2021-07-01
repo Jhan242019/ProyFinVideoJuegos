@@ -25,7 +25,7 @@ public class Cannon : MonoBehaviour {
 		audioSource = GetComponent<AudioSource> ();
 	}
 
-	// Use this for initialization
+	// Inicializamos las variables necesarias para la jugabilidad
 	void Start () {
 		readyToShoot = true;
 		shot = maxShot;
@@ -39,7 +39,7 @@ public class Cannon : MonoBehaviour {
 		Vector3 currentRotation = transform.rotation.eulerAngles;
 	}
 	
-	// Update is called once per frame
+
 	void Update () {
 		if (GameplayController.instance.gameInProgress) {
 			if (readyToShoot) {
