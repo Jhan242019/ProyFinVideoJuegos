@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class CameraFollow : MonoBehaviour {
 
+	
+	//establecemosd los objetos y valores que se pasaran atraves del inspecto en unity
 	public Transform objetivo;
 	public Transform limiteIzquierdo;
 	public Transform limiteDerecho;
